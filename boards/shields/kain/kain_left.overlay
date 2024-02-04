@@ -1,0 +1,19 @@
+/*
+ * Copyright (c) 2024 Joseph Kain
+ * Adapted from corne_right.overlay copyright Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "kain.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&pro_micro 1 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 0 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 2 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 3 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 4 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 5 GPIO_ACTIVE_HIGH>
+        ;
+};
