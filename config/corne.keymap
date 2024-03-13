@@ -37,10 +37,10 @@
 
         RightMods {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans               &trans           &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RGUI SQT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans               &trans           &trans        &trans
+                        &trans  &trans  &trans    &trans  &trans             &trans
             >;
         };
 
