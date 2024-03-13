@@ -28,10 +28,10 @@
 
         LeftMods {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans          &trans          &trans              &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans          &trans              &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans              &trans            &trans    &trans  &trans  &trans
             >;
         };
 
