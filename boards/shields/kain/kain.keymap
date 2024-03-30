@@ -12,6 +12,18 @@
 };
 
 / {
+  behaviors {
+  caps: caps {
+      compatible = "zmk,behavior-mod-morph";
+      label = "caps";
+      #binding-cells = <0>;
+      bindings = <&caps_word>, <&kp CAPS>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+  };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
@@ -44,10 +56,10 @@
 
         Nav {
             bindings = <
-&none    &kp PG_UP  &kp END    &kp UP     &kp HOME   &kp INS        &none   &none      &none      &none     &bootloader  &none
-&kp ESC  &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &caps_word     &none   &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI     &none
-&none    &none      &none      &none      &none      &none          &none   &none      &none      &none     &none        &none
-                               &none      &kp SPACE  &kp TAB        &kp RET &none      &none
+&none    &kp PG_UP  &kp END    &kp UP     &kp HOME   &kp INS      &none   &none      &none      &none     &bootloader  &none
+&kp ESC  &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &caps        &none   &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI     &none
+&none    &none      &none      &none      &none      &none        &none   &none      &none      &none     &none        &none
+                               &none      &kp SPACE  &kp TAB      &kp RET &none      &none
             >;
         };
 
