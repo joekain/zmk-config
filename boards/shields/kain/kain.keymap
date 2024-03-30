@@ -12,18 +12,16 @@
 };
 
 / {
-  behaviors {
-  caps: caps {
-      compatible = "zmk,behavior-mod-morph";
-      label = "caps";
-      #binding-cells = <0>;
-      bindings = <&caps_word>, <&kp CAPS>;
-      mods = <(MOD_LSFT|MOD_RSFT)>;
+    behaviors {
+    caps: caps {
+        compatible = "zmk,behavior-mod-morph";
+        label = "caps";
+        #binding-cells = <0>;
+        bindings = <&caps_word>, <&kp CAPS>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
     };
-  };
-};
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
