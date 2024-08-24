@@ -45,23 +45,23 @@ layers:
   Nav_and_symbols:
   - ''
   - ''
-  - ''
-  - UP
   - PG UP
+  - UP
+  - _
+  - '|'
+  - ':'
   - ''
-  - INS
   - ''
-  - ;
   - ''
   - ''
   - ''
   - {t: ▽, type: trans}
-  - ''
+  - '&caps_word'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - ''
-  - '&caps_word'
+  - /
+  - ;
   - (
   - <
   - '['
@@ -69,10 +69,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
   - PG DN
   - ''
+  - '-'
+  - '#'
   - '`'
   - )
   - '>'
@@ -82,12 +82,12 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - RET
-  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number:
   - ''
-  - ''
+  - '`'
   - ''
   - ''
   - _
@@ -111,16 +111,16 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - ''
+  - '!'
+  - '@'
   - '#'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ;
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
