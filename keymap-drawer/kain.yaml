@@ -1,0 +1,216 @@
+layers:
+  Base:
+  - Bluetooth
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Right_bootloader
+  - ESCAPE
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ''''
+  - LEFT ALT
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT SHIFT
+  - LEFT SHIFT
+  - {t: SPACE, h: Nav_and_symbols}
+  - {t: TAB, h: Number}
+  - {t: ENTER, h: RIGHT CONTROL}
+  - {t: BACKSPACE, h: LEFT COMMAND}
+  - RIGHT SHIFT
+  Nav_and_symbols:
+  - ''
+  - ''
+  - ''
+  - UP
+  - PG UP
+  - ''
+  - INS
+  - ''
+  - ;
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - '&caps_word'
+  - (
+  - <
+  - '['
+  - '{'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - PG DN
+  - ''
+  - '`'
+  - )
+  - '>'
+  - ']'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - RET
+  - BSPC
+  - {t: ▽, type: trans}
+  Number:
+  - ''
+  - ''
+  - ''
+  - ''
+  - _
+  - \
+  - '='
+  - +
+  - '-'
+  - '*'
+  - /
+  - ''
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - ''
+  - '#'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Bluetooth:
+  - {type: held}
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Right_bootloader:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - '&bootloader'
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
