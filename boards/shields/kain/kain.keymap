@@ -24,7 +24,36 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/outputs.h>
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/outputs.h>
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/outputs.h>
+
 / {
+    behaviors {
+        smart_shift: smart_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Shift+";
+            bindings = <&kp>, <&caps_word>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -36,19 +65,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mo 3           &kp Q  &kp W  &kp E           &kp R        &kp T        &kp Y                    &kp U                       &kp I            &kp O    &kp P     &mo 4
-&kp ESCAPE      &kp A  &kp S  &kp D           &kp F        &kp G        &kp H                    &kp J                       &kp K            &kp L    &kp SQT   &kp LEFT_ALT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V        &kp B        &kp N                    &kp M                       &kp COMMA        &kp DOT  &kp FSLH  &kp LEFT_SHIFT
-                              &kp LEFT_SHIFT  &lt 1 SPACE  &lt 2 TAB    &mt RIGHT_CONTROL ENTER  &mt LEFT_COMMAND BACKSPACE  &kp RIGHT_SHIFT
+&mo 3       &kp Q  &kp W  &kp E                       &kp R        &kp T        &kp Y           &kp U                 &kp I                       &kp O    &kp P     &mo 4
+&kp ESCAPE  &kp A  &kp S  &kp D                       &kp F        &kp G        &kp H           &kp J                 &kp K                       &kp L    &kp SQT   &kp LEFT_ALT
+&none       &kp Z  &kp X  &kp C                       &kp V        &kp B        &kp N           &kp M                 &kp COMMA                   &kp DOT  &kp FSLH  &mkp MB3
+                          &smart_shift LSHIFT LSHIFT  &lt 1 SPACE  &lt 2 TAB    &mt RCTRL BSPC  &mt LEFT_COMMAND RET  &smart_shift RSHIFT RSHIFT
             >;
         };
 
-        Nav_and_symbols {
+        Nav+ {
             bindings = <
-&none   &none       &kp PG_UP       &kp UP          &kp UNDERSCORE   &kp PIPE     &kp COLON      &none                  &none             &none              &none            &none
-&trans  &caps_word  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SLASH    &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LESS_THAN     &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans
-&trans  &none       &kp PG_DN       &none           &kp MINUS        &kp HASH     &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
-                                    &trans          &none            &trans       &trans         &trans                 &trans
+&none   &none  &kp PG_UP       &kp UP          &kp UNDERSCORE   &kp PIPE     &kp COLON      &none                  &none             &none              &none            &none
+&trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SLASH    &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LESS_THAN     &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans
+&trans  &none  &kp PG_DN       &none           &kp MINUS        &kp HASH     &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
+                               &trans          &none            &trans       &trans         &trans                 &trans
             >;
         };
 
@@ -61,16 +90,16 @@
             >;
         };
 
-        Bluetooth {
+        Sys {
             bindings = <
-&trans  &bootloader  &sys_reset  &none  &none  &none    &none  &bt BT_CLR    &none         &none         &none         &none
-&none   &none        &none       &none  &none  &none    &none  &none         &none         &none         &none         &none
-&none   &none        &none       &none  &none  &none    &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none
-                                 &none  &none  &none    &none  &none         &none
+&trans  &bootloader  &sys_reset  &soft_off  &none  &none    &none         &bt BT_CLR    &none         &none         &none         &none
+&none   &none        &none       &none      &none  &none    &out OUT_USB  &none         &none         &none         &none         &none
+&none   &none        &none       &none      &none  &none    &out OUT_BLE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none
+                                 &none      &none  &none    &none         &none         &none
             >;
         };
 
-        Right_bootloader {
+        RBoot {
             bindings = <
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &sys_reset  &bootloader  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none       &none        &none

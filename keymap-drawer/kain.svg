@@ -121,8 +121,8 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Bluetooth">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">Bluetooth</tspan></text>
+<a href="#Sys">
+<text x="0" y="0" class="key tap layer-activator">Sys</text>
 </a></g>
 <g transform="translate(84, 42)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -166,8 +166,8 @@ path.combo {
 </g>
 <g transform="translate(756, 42)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Right_bootloader">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">Right_boot…</tspan></text>
+<a href="#RBoot">
+<text x="0" y="0" class="key tap layer-activator">RBoot</text>
 </a></g>
 <g transform="translate(28, 98)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -221,9 +221,6 @@ path.combo {
 </g>
 <g transform="translate(28, 154)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
-</text>
 </g>
 <g transform="translate(84, 154)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -268,20 +265,21 @@ path.combo {
 <g transform="translate(756, 154)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
+<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB3</tspan>
 </text>
 </g>
 <g transform="translate(224, 210)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 70%">&amp;caps_word</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">LSHIFT</tspan>
 </text>
+<text x="0" y="24" class="key hold">LSHIFT</text>
 </g>
 <g transform="translate(280, 224)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<a href="#Nav_and_symbols">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Nav_and_sy…</tspan></text>
+<a href="#Nav">
+<text x="0" y="24" class="key hold layer-activator">Nav+</text>
 </a></g>
 <g transform="translate(336, 238)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -291,24 +289,25 @@ path.combo {
 </a></g>
 <g transform="translate(448, 238)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ENTER</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">RIGHT CONT…</tspan></text>
+<text x="0" y="0" class="key tap">BSPC</text>
+<text x="0" y="24" class="key hold">RCTRL</text>
 </g>
 <g transform="translate(504, 224)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<text x="0" y="0" class="key tap">RET</text>
 <text x="0" y="24" class="key hold"><tspan style="font-size: 64%">LEFT COMMA…</tspan></text>
 </g>
 <g transform="translate(560, 210)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RIGHT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 70%">&amp;caps_word</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">RSHIFT</tspan>
 </text>
+<text x="0" y="24" class="key hold">RSHIFT</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 322)" class="layer-Nav_and_symbols">
-<text x="0" y="28" class="label" id="Nav_and_symbols">Nav_and_symbols:</text>
+<g transform="translate(30, 322)" class="layer-Nav+">
+<text x="0" y="28" class="label" id="Nav">Nav+:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -359,7 +358,6 @@ path.combo {
 </g>
 <g transform="translate(84, 98)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -648,8 +646,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 966)" class="layer-Bluetooth">
-<text x="0" y="28" class="label" id="Bluetooth">Bluetooth:</text>
+<g transform="translate(30, 966)" class="layer-Sys">
+<text x="0" y="28" class="label" id="Sys">Sys:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key held keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -664,6 +662,7 @@ path.combo {
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;soft_off</tspan></text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -712,6 +711,9 @@ path.combo {
 </g>
 <g transform="translate(476, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">USB</tspan>
+</text>
 </g>
 <g transform="translate(532, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -748,6 +750,9 @@ path.combo {
 </g>
 <g transform="translate(476, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">BLE</tspan>
+</text>
 </g>
 <g transform="translate(532, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -792,8 +797,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1288)" class="layer-Right_bootloader">
-<text x="0" y="28" class="label" id="Right_bootloader">Right_bootloader:</text>
+<g transform="translate(30, 1288)" class="layer-RBoot">
+<text x="0" y="28" class="label" id="RBoot">RBoot:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
