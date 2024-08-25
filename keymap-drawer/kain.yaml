@@ -1,18 +1,18 @@
 layers:
   Base:
-  - [Bluetooth, Q, W, E, R, T, Y, U, I, O, P, Right_bootloader]
+  - [Sys, Q, W, E, R, T, Y, U, I, O, P, RBoot]
   - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', LEFT ALT]
-  - [LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, LEFT SHIFT]
-  - - LEFT SHIFT
-    - {t: SPACE, h: Nav_and_symbols}
+  - ['', Z, X, C, V, B, N, M, ',', ., /, '&mkp MB3']
+  - - {t: LSHIFT, h: '&caps_word'}
+    - {t: SPACE, h: Nav+}
     - {t: TAB, h: Number}
-    - {t: ENTER, h: RIGHT CONTROL}
+    - {t: ENTER, h: RCTRL}
     - {t: BACKSPACE, h: LEFT COMMAND}
-    - RIGHT SHIFT
-  Nav_and_symbols:
+    - {t: RSHIFT, h: '&caps_word'}
+  Nav+:
   - ['', '', PG UP, UP, _, '|', ':', '', '', '', '', '']
   - - {t: ▽, type: trans}
-    - '&caps_word'
+    - ''
     - LEFT ARROW
     - DOWN ARROW
     - RIGHT ARROW
@@ -73,11 +73,11 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  Bluetooth:
+  Sys:
   - - {type: held}
     - '&bootloader'
     - '&sys_reset'
-    - ''
+    - '&soft_off'
     - ''
     - ''
     - ''
@@ -86,21 +86,21 @@ layers:
     - ''
     - ''
     - ''
-  - ['', '', '', '', '', '', '', '', '', '', '', '']
+  - ['', '', '', '', '', '', OUT USB, '', '', '', '', '']
   - - ''
     - ''
     - ''
     - ''
     - ''
     - ''
-    - ''
+    - OUT BLE
     - {t: BT, h: '0'}
     - {t: BT, h: '1'}
     - {t: BT, h: '2'}
     - {t: BT, h: '3'}
     - ''
   - ['', '', '', '', '', '']
-  Right_bootloader:
+  RBoot:
   - - ''
     - ''
     - ''
