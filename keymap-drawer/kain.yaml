@@ -3,12 +3,12 @@ layers:
   - [Sys, Q, W, E, R, T, Y, U, I, O, P, RBoot]
   - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', LEFT ALT]
   - ['', Z, X, C, V, B, N, M, ',', ., /, '&mkp MB3']
-  - - {t: LSHIFT, h: '&caps_word'}
+  - - {t: '&caps_word LSHIFT', h: LSHIFT}
     - {t: SPACE, h: Nav+}
     - {t: TAB, h: Number}
     - {t: BSPC, h: RCTRL}
     - {t: RET, h: LEFT COMMAND}
-    - {t: RSHIFT, h: '&caps_word'}
+    - {t: '&caps_word RSHIFT', h: RSHIFT}
   Nav+:
   - ['', '', PG UP, UP, _, '|', ':', '', '', '', '', '']
   - - {t: ▽, type: trans}
