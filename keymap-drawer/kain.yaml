@@ -6,8 +6,8 @@ layers:
   - - {t: LSHIFT, h: '&caps_word'}
     - {t: SPACE, h: Nav+}
     - {t: TAB, h: Number}
-    - {t: ENTER, h: RCTRL}
-    - {t: BACKSPACE, h: LEFT COMMAND}
+    - {t: BSPC, h: RCTRL}
+    - {t: RET, h: LEFT COMMAND}
     - {t: RSHIFT, h: '&caps_word'}
   Nav+:
   - ['', '', PG UP, UP, _, '|', ':', '', '', '', '', '']
