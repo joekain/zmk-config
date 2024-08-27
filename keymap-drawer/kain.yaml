@@ -1,16 +1,59 @@
 layers:
-  Base:
+  Base_QWERTY:
   - [Sys, Q, W, E, R, T, Y, U, I, O, P, RBoot]
   - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', LEFT ALT]
-  - ['', Z, X, C, V, B, N, M, ',', ., /, '&mkp MB3']
+  - [BSPC, Z, X, C, V, B, N, M, ',', ., /, '&mkp MB3']
   - - {t: '&caps_word LSHIFT', h: LSHIFT}
     - {t: SPACE, h: Nav+}
     - {t: TAB, h: Number}
     - {t: BSPC, h: RCTRL}
     - {t: RET, h: LEFT COMMAND}
     - {t: '&caps_word RSHIFT', h: RSHIFT}
+  Colemak_DH:
+  - - {t: ▽, type: trans}
+    - Q
+    - W
+    - F
+    - P
+    - B
+    - J
+    - L
+    - U
+    - Y
+    - ;
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - A
+    - R
+    - S
+    - T
+    - G
+    - M
+    - N
+    - E
+    - I
+    - O
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - Z
+    - X
+    - C
+    - D
+    - V
+    - K
+    - H
+    - ','
+    - .
+    - /
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   Nav+:
-  - ['', '', PG UP, UP, _, '|', ':', '', '', '', '', '']
+  - ['', '', PG UP, UP, _, '|', ':', '''', '', '', '', '']
   - - {t: ▽, type: trans}
     - ''
     - LEFT ARROW
@@ -42,7 +85,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   Number:
-  - ['', '`', '', '', _, \, '=', +, '-', '*', /, '']
+  - ['', '`', '~', '', _, \, '=', +, '-', '*', /, '']
   - - {t: ▽, type: trans}
     - '1'
     - '2'
@@ -88,8 +131,8 @@ layers:
     - ''
   - ['', '', '', '', '', '', OUT USB, '', '', '', '', '']
   - - ''
-    - ''
-    - ''
+    - {t: Base_QWERTY, h: toggle}
+    - {t: Colemak_DH, h: toggle}
     - ''
     - ''
     - ''
