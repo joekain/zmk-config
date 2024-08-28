@@ -1,16 +1,16 @@
 layers:
   Base_QWERTY:
   - [Sys, Q, W, E, R, T, Y, U, I, O, P, Sys]
-  - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', LEFT ALT]
-  - [BSPC, Z, X, C, V, B, N, M, ',', ., /, '&mkp MB3']
-  - - {t: '&caps_word LSHIFT', h: LSHIFT}
-    - {t: SPACE, h: Nav+}
-    - {t: TAB, h: Number}
-    - {t: BSPC, h: RCTRL}
-    - {t: RET, h: LEFT COMMAND}
-    - {t: '&caps_word RSHIFT', h: RSHIFT}
+  - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', '$$mdi:apple-keyboard-option$$']
+  - ['$$mdi:backspace-outline$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:cursor-default-click-outline$$']
+  - - SHIFT+
+    - {t: '$$mdi:keyboard-space$$', h: Nav+}
+    - {t: '$$mdi:keyboard-tab$$', h: Number}
+    - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+    - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
+    - SHIFT+
   Middlemak:
-  - - {t: ▽, type: trans}
+  - - {type: trans}
     - Q
     - W
     - L
@@ -21,8 +21,8 @@ layers:
     - O
     - U
     - ;
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+    - {type: trans}
+  - - {type: trans}
     - A
     - S
     - R
@@ -33,8 +33,8 @@ layers:
     - E
     - I
     - H
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+    - {type: trans}
+  - - {type: trans}
     - Z
     - X
     - C
@@ -45,71 +45,71 @@ layers:
     - ','
     - .
     - /
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   Windows:
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - LWIN
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ENTER, h: RIGHT ALT}
-    - {t: ▽, type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:microsoft-windows$$
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {t: ⮐, h: '$$mdi:apple-keyboard-option$$'}
+    - {type: trans}
   Nav+:
-  - ['', '', PG UP, UP, _, '|', ':', '''', '', '', '', '']
-  - - {t: ▽, type: trans}
+  - ['', '', PG UP, '$$mdi:arrow-up$$', _, '|', ':', '''', '', '', '', '']
+  - - {type: trans}
     - ''
-    - LEFT ARROW
-    - DOWN ARROW
-    - RIGHT ARROW
+    - $$mdi:arrow-left$$
+    - $$mdi:arrow-down$$
+    - $$mdi:arrow-right$$
     - /
     - ;
     - (
     - <
     - '['
     - '{'
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+    - {type: trans}
+  - - {type: trans}
     - ''
     - PG DN
     - ''
@@ -120,16 +120,16 @@ layers:
     - '>'
     - ']'
     - '}'
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+    - {type: trans}
+  - - {type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   Number:
   - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '']
-  - - {t: ▽, type: trans}
+  - - {type: trans}
     - '`'
     - '~'
     - '#'
@@ -140,8 +140,8 @@ layers:
     - '*'
     - '-'
     - /
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+    - {type: trans}
+  - - {type: trans}
     - '!'
     - '@'
     - '#'
@@ -152,37 +152,37 @@ layers:
     - '*'
     - (
     - )
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   Sys:
   - - {type: held}
-    - '&bootloader'
-    - '&sys_reset'
-    - '&soft_off'
+    - $$mdi:flash$$
+    - $$mdi:refresh$$
+    - $$mdi:power$$
     - ''
     - ''
     - ''
     - ''
-    - '&soft_off'
-    - '&sys_reset'
-    - '&bootloader'
+    - $$mdi:power$$
+    - $$mdi:refresh$$
+    - $$mdi:flash$$
     - ''
-  - ['', '', '', '', '', '', OUT USB, '', '', '', '', '']
+  - ['', '', '', '', '', '', '$$mdi:usb$$', '', '', '', '', '']
   - - ''
     - {t: Base_QWERTY, h: toggle}
     - {t: Middlemak, h: toggle}
     - {t: Windows, h: toggle}
     - ''
     - ''
-    - OUT BLE
-    - {t: BT, h: '0'}
-    - {t: BT, h: '1'}
-    - {t: BT, h: '2'}
-    - {t: BT, h: '3'}
-    - BT CLR
+    - $$mdi:bluetooth$$
+    - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
+    - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
+    - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
+    - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
+    - $$mdi:bluetooth-off$$
   - ['', '', '', '', '', '']
