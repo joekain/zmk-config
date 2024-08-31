@@ -96,13 +96,13 @@ layers:
     - {t: ⮐, h: '$$mdi:apple-keyboard-option$$'}
     - {type: trans}
   Nav+:
-  - ['', '', PG UP, '$$mdi:arrow-up$$', _, '|', ':', '''', '', '', '', '']
+  - ['', PG UP, '', '$$mdi:arrow-up$$', '', '', ':', '''', '|', '', '', '']
   - - {type: trans}
     - ''
     - $$mdi:arrow-left$$
     - $$mdi:arrow-down$$
     - $$mdi:arrow-right$$
-    - /
+    - ''
     - ;
     - (
     - <
@@ -110,11 +110,11 @@ layers:
     - '{'
     - {type: trans}
   - - {type: trans}
-    - ''
     - PG DN
+    - Gui+ X
     - Gui+ C
-    - '-'
-    - '#'
+    - Gui+ V
+    - ''
     - '`'
     - )
     - '>'
@@ -135,11 +135,11 @@ layers:
     - '#'
     - _
     - \
-    - '='
-    - +
-    - '*'
-    - '-'
     - /
+    - '-'
+    - '*'
+    - +
+    - '='
     - {type: trans}
   - - {type: trans}
     - '!'
