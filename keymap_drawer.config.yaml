@@ -151,6 +151,15 @@ parse_config:
       tap: $$mdi:arrow-decision-outline$$
       shifted: $$mdi:apple$$
       type: sym_by_sym
+    '&kp LG(X)':
+      shifted: $$mdi:apple-keyboard-command$$
+      tap: X
+    '&kp LG(C)':
+      tap: C
+      shifted: $$mdi:apple-keyboard-command$$
+    '&kp LG(V)':
+      tap: V
+      shifted: $$mdi:apple-keyboard-command$$
     '&kple LG(TAB)': $$mdi:arrow-decision-outline$$
     '&kple LA(TAB)': $$mdi:arrow-decision-outline$$
     #'&kple LG(TAB)':
