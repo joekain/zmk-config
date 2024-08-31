@@ -111,9 +111,9 @@ layers:
     - {type: trans}
   - - {type: trans}
     - PG DN
-    - Gui+ X
-    - Gui+ C
-    - Gui+ V
+    - {t: X, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: C, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: V, s: '$$mdi:apple-keyboard-command$$'}
     - ''
     - '`'
     - )
