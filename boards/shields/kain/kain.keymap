@@ -86,5 +86,23 @@
                                  &none      &none  &none    &none         &none         &none
             >;
         };
+
+        WinCutPaste {
+            bindings = <
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans     &trans     &trans    &trans  &trans  &trans
+            >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        Windows {
+            if-layers = <2 3>;
+            then-layer = <6>;
+        };
     };
 };
