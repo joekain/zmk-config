@@ -62,10 +62,10 @@
 
         Nav+ {
             bindings = <
-&none   &kp PG_UP  &none           &kp UP          &none            &none     &kp COLON      &kp SQT                &kp PIPE           &none             &none            &none
-&trans  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none     &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp LEFT_BRACE   &trans
-&trans  &none      &kp LG(X)       &kp LG(C)       &kp LG(V)        &none     &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_BRACE  &trans
-                                   &trans          &none            &trans    &trans         &trans                 &trans
+&none   &kp PG_UP  &none           &kp UP          &none            &none        &kp COLON      &kp SQT                &kp PIPE           &none             &none            &none
+&trans  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none        &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp LEFT_BRACE   &trans
+&trans  &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)    &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_BRACE  &trans
+                                   &trans          &none            &trans       &trans         &trans                 &trans
             >;
         };
 
@@ -89,10 +89,10 @@
 
         WinCutPaste {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans     &trans     &trans    &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans     &trans     &trans       &trans  &trans  &trans
             >;
         };
     };

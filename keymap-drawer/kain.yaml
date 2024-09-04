@@ -110,11 +110,11 @@ layers:
     - '{'
     - {type: trans}
   - - {type: trans}
-    - ''
+    - Gui+ Z
     - {t: X, s: '$$mdi:apple-keyboard-command$$'}
     - {t: C, s: '$$mdi:apple-keyboard-command$$'}
     - {t: V, s: '$$mdi:apple-keyboard-command$$'}
-    - ''
+    - Gui+ B
     - '`'
     - )
     - ']'
@@ -212,11 +212,11 @@ layers:
     - {type: trans}
     - {type: trans}
   - - {type: trans}
-    - {type: trans}
+    - Ctl+ Z
     - Ctl+ X
     - Ctl+ C
     - Ctl+ V
-    - {type: trans}
+    - Ctl+ B
     - {type: trans}
     - {type: trans}
     - {type: trans}
