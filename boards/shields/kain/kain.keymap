@@ -62,9 +62,9 @@
 
         Nav+ {
             bindings = <
-&none   &kp PG_UP  &none           &kp UP          &none            &none     &kp COLON      &kp SQT                &kp PIPE          &none              &none            &none
-&trans  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none     &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LESS_THAN     &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans
-&trans  &kp PG_DN  &kp LG(X)       &kp LG(C)       &kp LG(V)        &none     &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
+&none   &kp PG_UP  &none           &kp UP          &none            &none     &kp COLON      &kp SQT                &kp PIPE           &none             &none            &none
+&trans  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none     &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp LEFT_BRACE   &trans
+&trans  &none      &kp LG(X)       &kp LG(C)       &kp LG(V)        &none     &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_BRACE  &trans
                                    &trans          &none            &trans    &trans         &trans                 &trans
             >;
         };

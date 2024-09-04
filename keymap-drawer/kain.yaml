@@ -98,27 +98,27 @@ layers:
   Nav+:
   - ['', PG UP, '', '$$mdi:arrow-up$$', '', '', ':', '''', '|', '', '', '']
   - - {type: trans}
-    - ''
+    - PG DN
     - $$mdi:arrow-left$$
     - $$mdi:arrow-down$$
     - $$mdi:arrow-right$$
     - ''
     - ;
     - (
-    - <
     - '['
+    - <
     - '{'
     - {type: trans}
   - - {type: trans}
-    - PG DN
+    - ''
     - {t: X, s: '$$mdi:apple-keyboard-command$$'}
     - {t: C, s: '$$mdi:apple-keyboard-command$$'}
     - {t: V, s: '$$mdi:apple-keyboard-command$$'}
     - ''
     - '`'
     - )
-    - '>'
     - ']'
+    - '>'
     - '}'
     - {type: trans}
   - - {type: trans}
