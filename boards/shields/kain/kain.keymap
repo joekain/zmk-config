@@ -22,6 +22,18 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        number_layer: number_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NUMBER_LAYER";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            require-prior-idle-ms = <0>;
+        };
     };
 
     keymap {
@@ -35,10 +47,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mo 5       &kp Q  &kp W  &kp E                       &kp R        &kp T        &kp Y           &kp U                 &kp I                       &kp O    &kp P     &mo 5
-&kp ESCAPE  &kp A  &kp S  &kp D                       &kp F        &kp G        &kp H           &kp J                 &kp K                       &kp L    &kp SQT   &kp LEFT_ALT
-&kp BSPC    &kp Z  &kp X  &kp C                       &kp V        &kp B        &kp N           &kp M                 &kp COMMA                   &kp DOT  &kp FSLH  &mkp MB3
-                          &smart_shift LSHIFT LSHIFT  &lt 3 SPACE  &lt 4 TAB    &mt RCTRL BSPC  &mt LEFT_COMMAND RET  &smart_shift RSHIFT RSHIFT
+&mo 5       &kp Q  &kp W  &kp E                       &kp R        &kp T                  &kp Y           &kp U                 &kp I                       &kp O    &kp P     &mo 5
+&kp ESCAPE  &kp A  &kp S  &kp D                       &kp F        &kp G                  &kp H           &kp J                 &kp K                       &kp L    &kp SQT   &kp LEFT_ALT
+&kp BSPC    &kp Z  &kp X  &kp C                       &kp V        &kp B                  &kp N           &kp M                 &kp COMMA                   &kp DOT  &kp FSLH  &mkp MB3
+                          &smart_shift LSHIFT LSHIFT  &lt 3 SPACE  &number_layer 4 TAB    &mt RCTRL BSPC  &mt LEFT_COMMAND RET  &smart_shift RSHIFT RSHIFT
             >;
         };
 
@@ -62,10 +74,10 @@
 
         Nav+ {
             bindings = <
-&none   &kp PG_UP  &none           &kp UP          &none            &none        &kp COLON      &kp SQT                &kp PIPE           &none             &none            &none
-&trans  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none        &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp LEFT_BRACE   &trans
-&trans  &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)    &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_BRACE  &trans
-                                   &trans          &none            &trans       &trans         &trans                 &trans
+&none   &kp PG_UP  &none           &kp UP          &none            &none               &kp COLON      &kp SQT                &kp PIPE           &none             &none            &none
+&trans  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_COMMAND    &kp SEMICOLON  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LESS_THAN     &kp LEFT_BRACE   &trans
+&trans  &kp LG(Z)  &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)           &kp GRAVE      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_BRACE  &trans
+                                   &trans          &none            &trans              &trans         &trans                 &trans
             >;
         };
 
@@ -89,10 +101,10 @@
 
         WinCutPaste {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans     &trans     &trans       &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &kp LEFT_CONTROL    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)           &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans     &trans     &trans              &trans  &trans  &trans
             >;
         };
     };
