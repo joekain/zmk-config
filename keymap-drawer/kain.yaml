@@ -1,10 +1,32 @@
 layers:
   Base_QWERTY:
-  - [Sys, Q, W, E, R, T, Y, U, I, O, P, Sys]
+  - - Sys
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - {t: Nav, h: toggle}
   - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', '$$mdi:apple-keyboard-option$$']
-  - ['$$mdi:backspace-outline$$', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:cursor-default-click-outline$$']
+  - - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - ','
+    - .
+    - /
+    - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
   - - SHIFT+
-    - {t: '$$mdi:keyboard-space$$', h: Nav+}
+    - {t: '$$mdi:keyboard-space$$', h: brackets+}
     - {t: '$$mdi:keyboard-tab$$', h: Number}
     - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
     - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
@@ -95,14 +117,14 @@ layers:
     - {type: trans}
     - {t: ⮐, h: '$$mdi:apple-keyboard-option$$'}
     - {type: trans}
-  Nav+:
-  - ['', PG UP, '', '$$mdi:arrow-up$$', '', '', ':', '''', '|', '', '', '']
+  brackets+:
+  - ['', '', '', '', '', LCMD, ':', '''', '|', '', '', '']
   - - {type: trans}
-    - PG DN
-    - $$mdi:arrow-left$$
-    - $$mdi:arrow-down$$
-    - $$mdi:arrow-right$$
-    - $$mdi:apple-keyboard-command$$
+    - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: X, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: C, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: V, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: B, s: '$$mdi:apple-keyboard-command$$'}
     - ;
     - (
     - '['
@@ -110,11 +132,11 @@ layers:
     - '{'
     - {type: trans}
   - - {type: trans}
-    - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: X, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: C, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: V, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: B, s: '$$mdi:apple-keyboard-command$$'}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
     - '`'
     - )
     - ']'
@@ -192,22 +214,10 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
     - $$mdi:apple-keyboard-control$$
     - {type: trans}
     - {type: trans}
-    - {type: trans}
+    - ''
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -224,7 +234,62 @@ layers:
     - {type: trans}
     - {type: trans}
   - - {type: trans}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
     - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  Nav:
+  - - {type: trans}
+    - PG UP
+    - {type: trans}
+    - $$mdi:arrow-up$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:power$$
+    - $$mdi:refresh$$
+    - $$mdi:flash$$
+    - {type: trans}
+  - - {type: trans}
+    - PG DN
+    - LEFT
+    - $$mdi:arrow-down$$
+    - RIGHT
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
