@@ -36,7 +36,7 @@
 
         nav_word: nav_word {
             compatible = "zmk,behavior-auto-layer";
-            #binding-cells = <7>;
+            #binding-cells = <1>;
             continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP>;
             ignore-modifiers;
         };
@@ -53,7 +53,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mo 5                  &kp Q  &kp W  &kp E                       &kp R        &kp T                  &kp Y           &kp U                 &kp I                       &kp O    &kp P     &nav_word
+&mo 5                  &kp Q  &kp W  &kp E                       &kp R        &kp T                  &kp Y           &kp U                 &kp I                       &kp O    &kp P     &nav_word 7
 &kp ESCAPE             &kp A  &kp S  &kp D                       &kp F        &kp G                  &kp H           &kp J                 &kp K                       &kp L    &kp SQT   &kp LEFT_ALT
 &smart_shift LSHIFT 0  &kp Z  &kp X  &kp C                       &kp V        &kp B                  &kp N           &kp M                 &kp COMMA                   &kp DOT  &kp FSLH  &smart_shift RSHIFT 0
                                      &smart_shift LSHIFT LSHIFT  &lt 3 SPACE  &number_layer 4 TAB    &mt RCTRL BSPC  &mt LEFT_COMMAND RET  &smart_shift RSHIFT RSHIFT
