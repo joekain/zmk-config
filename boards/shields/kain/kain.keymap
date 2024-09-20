@@ -4,12 +4,6 @@
  * SPDX-License-Identifier: MIT
  */
 
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -59,7 +53,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mo 5                  &kp Q  &kp W  &kp E                       &kp R        &kp T                  &kp Y           &kp U                 &kp I                       &kp O    &kp P     &tog 7
+&mo 5                  &kp Q  &kp W  &kp E                       &kp R        &kp T                  &kp Y           &kp U                 &kp I                       &kp O    &kp P     &nav_word
 &kp ESCAPE             &kp A  &kp S  &kp D                       &kp F        &kp G                  &kp H           &kp J                 &kp K                       &kp L    &kp SQT   &kp LEFT_ALT
 &smart_shift LSHIFT 0  &kp Z  &kp X  &kp C                       &kp V        &kp B                  &kp N           &kp M                 &kp COMMA                   &kp DOT  &kp FSLH  &smart_shift RSHIFT 0
                                      &smart_shift LSHIFT LSHIFT  &lt 3 SPACE  &number_layer 4 TAB    &mt RCTRL BSPC  &mt LEFT_COMMAND RET  &smart_shift RSHIFT RSHIFT
