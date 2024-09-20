@@ -1,17 +1,6 @@
 layers:
   Base_QWERTY:
-  - - Sys
-    - Q
-    - W
-    - E
-    - R
-    - T
-    - Y
-    - U
-    - I
-    - O
-    - P
-    - {t: Nav, h: toggle}
+  - [Sys, Q, W, E, R, T, Y, U, I, O, P, '&nav_word']
   - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', '$$mdi:apple-keyboard-option$$']
   - - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
     - Z
