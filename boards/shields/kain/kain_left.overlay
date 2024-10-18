@@ -7,26 +7,24 @@
 
 #include "kain.dtsi"
 
+
 /*
- * After wiring this side I realized that it would be easier to have
- * the rows wire into the nearest pins and have the columns take the
- * rest.  But this is how the left hand side was wired.  The right
- * hand side will benefit from this experience.
+ * This matches the schematic.
  */
 &kscan0 {
     row-gpios
-        = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 
     col-gpios
-        = <&pro_micro 1 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 0 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 2 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 3 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 4 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 5 GPIO_ACTIVE_HIGH>
+        = <&pro_micro 12 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 17 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 16 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
         ;
 };

@@ -12,7 +12,3 @@ include:
     shield: kain_right
   - board: nice_nano_v2
     shield: settings_reset
-  - board: nice_nano_v2
-    shield: kainp_left
-  - board: nice_nano_v2
-    shield: kainp_right
