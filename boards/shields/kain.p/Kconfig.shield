@@ -1,0 +1,9 @@
+# Copyright (c) 2024 Joseph Kain
+# Adapted from Corne's Kconfig.sheild copyright Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_KAIN_P_LEFT
+    def_bool $(shields_list_contains,kain_p_left)
+
+config SHIELD_KAIN_RIGHT
+    def_bool $(shields_list_contains,kain_p_right)

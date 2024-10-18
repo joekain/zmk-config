@@ -1,0 +1,29 @@
+/*
+ * Copyright (c) 2024 Joseph Kain
+ * Adapted from corne_right.overlay copyright Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "kain_p.dtsi"
+
+/*
+ * This matches the schematic.
+ */
+&kscan0 {
+    row-gpios
+        = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
+
+    col-gpios
+        = <&pro_micro 12 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 17 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 16 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
+        ;
+};

@@ -1,0 +1,16 @@
+if SHIELD_KAIN_P_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Kain_p"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_KAIN_P_LEFT || SHIELD_KAIN_P_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
