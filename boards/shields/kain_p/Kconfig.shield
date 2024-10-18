@@ -5,5 +5,5 @@
 config SHIELD_KAIN_P_LEFT
     def_bool $(shields_list_contains,kain_p_left)
 
-config SHIELD_KAIN_RIGHT
+config SHIELD_KAIN_P_RIGHT
     def_bool $(shields_list_contains,kain_p_right)
