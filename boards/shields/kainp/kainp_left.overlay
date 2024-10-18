@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "kain_p.dtsi"
+#include "kainp.dtsi"
 
 /*
  * This matches the schematic.

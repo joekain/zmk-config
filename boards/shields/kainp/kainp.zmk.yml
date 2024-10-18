@@ -1,11 +1,11 @@
 file_format: "1"
-id: kain_p
-name: Kain_p
+id: kainp
+name: KainP
 type: shield
 url: https://github.com/joekain/narfkb2
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - kain_p_left
-  - kain_p_right
+  - kainp_left
+  - kainp_right

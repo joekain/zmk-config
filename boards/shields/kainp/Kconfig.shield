@@ -2,8 +2,8 @@
 # Adapted from Corne's Kconfig.sheild copyright Pete Johanson
 # SPDX-License-Identifier: MIT
 
-config SHIELD_KAIN_P_LEFT
-    def_bool $(shields_list_contains,kain_p_left)
+config SHIELD_KAINP_LEFT
+    def_bool $(shields_list_contains,kainp_left)
 
-config SHIELD_KAIN_P_RIGHT
-    def_bool $(shields_list_contains,kain_p_right)
+config SHIELD_KAINP_RIGHT
+    def_bool $(shields_list_contains,kainp_right)
