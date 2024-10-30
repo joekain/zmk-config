@@ -123,9 +123,9 @@
 
         Nav {
             bindings = <
-&trans  &kp PG_UP  &trans    &kp UP    &trans     &trans    &trans  &trans  &soft_off  &sys_reset  &bootloader  &trans
-&trans  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans     &trans      &trans       &trans
-&trans  &trans     &trans    &trans    &trans     &trans    &trans  &trans  &trans     &trans      &trans       &trans
+&trans  &kp PG_UP  &trans    &kp UP    &trans     &trans    &trans  &trans  &soft_off  &trans  &trans  &trans
+&trans  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans     &trans  &trans  &trans
+&trans  &trans     &trans    &trans    &trans     &trans    &trans  &trans  &trans     &trans  &trans  &trans
                              &trans    &trans     &trans    &trans  &trans  &trans
             >;
         };
