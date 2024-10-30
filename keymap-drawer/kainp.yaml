@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '&nav_word 7'
+  - {t: '&nav_word 7', h: Sys}
   - ESCAPE
   - A
   - S
@@ -130,11 +130,11 @@ layers:
   - {type: trans}
   brackets+:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LCMD
+  - Gui+ Q
+  - Gui+ W
+  - Gui+ E
+  - Gui+ R
+  - Gui+ T
   - ':'
   - ''''
   - '|'
@@ -142,11 +142,11 @@ layers:
   - ''
   - ''
   - {type: trans}
-  - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: B, s: '$$mdi:apple-keyboard-command$$'}
+  - Gui+ A
+  - Gui+ S
+  - Gui+ D
+  - Gui+ F
+  - $$mdi:apple-keyboard-command$$
   - ;
   - (
   - '['
@@ -154,11 +154,11 @@ layers:
   - '{'
   - {type: trans}
   - {type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: B, s: '$$mdi:apple-keyboard-command$$'}
   - '`'
   - )
   - ']'
@@ -259,14 +259,26 @@ layers:
   - ''
   WinCutPaste:
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - Ctl+ Q
+  - {t: '$$mdi:apple-keyboard-control$$', s: W, type: sym_sub_text}
+  - Ctl+ E
+  - Ctl+ R
+  - Ctl+ T
   - {type: trans}
   - {type: trans}
   - ''
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - tmux prefix
+  - Ctl+ S
+  - Ctl+ D
+  - Ctl+ F
+  - $$mdi:apple-keyboard-control$$
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -276,18 +288,6 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - Ctl+ B
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: trans}
   - {type: trans}
   - {type: trans}
