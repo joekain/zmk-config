@@ -1,345 +1,296 @@
 layers:
   Base_QWERTY:
-  - Sys
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '&nav_word 7', h: Sys}
-  - ESCAPE
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ''''
-  - $$mdi:apple-keyboard-option$$
-  - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
-  - SHIFT+
-  - {t: '$$mdi:keyboard-space$$', h: brackets+}
-  - {t: '$$mdi:keyboard-tab$$', h: Number}
-  - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
-  - SHIFT+
+  - - Sys
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - {t: '&nav_word 7', h: Sys}
+  - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', '$$mdi:apple-keyboard-option$$']
+  - - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - ','
+    - .
+    - /
+    - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
+  - - SHIFT+
+    - {t: '$$mdi:keyboard-space$$', h: brackets+}
+    - {t: '$$mdi:keyboard-tab$$', h: Number}
+    - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+    - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
+    - SHIFT+
   Middlemak:
-  - {type: trans}
-  - Q
-  - W
-  - L
-  - D
-  - G
-  - J
-  - F
-  - O
-  - U
-  - ;
-  - {type: trans}
-  - {type: trans}
-  - A
-  - S
-  - R
-  - T
-  - P
-  - Y
-  - N
-  - E
-  - I
-  - H
-  - {type: trans}
-  - {type: trans}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - K
-  - M
-  - ','
-  - .
-  - /
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - - {type: trans}
+    - Q
+    - W
+    - L
+    - D
+    - G
+    - J
+    - F
+    - O
+    - U
+    - ;
+    - {type: trans}
+  - - {type: trans}
+    - A
+    - S
+    - R
+    - T
+    - P
+    - Y
+    - N
+    - E
+    - I
+    - H
+    - {type: trans}
+  - - {type: trans}
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - K
+    - M
+    - ','
+    - .
+    - /
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   Windows:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:microsoft-windows$$
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: ⮐, h: '$$mdi:apple-keyboard-option$$'}
-  - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:microsoft-windows$$
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {t: ⮐, h: '$$mdi:apple-keyboard-option$$'}
+    - {type: trans}
   brackets+:
-  - ''
-  - Gui+ Q
-  - Gui+ W
-  - Gui+ E
-  - Gui+ R
-  - Gui+ T
-  - ':'
-  - ''''
-  - '|'
-  - ''
-  - ''
-  - ''
-  - {type: trans}
-  - Gui+ A
-  - Gui+ S
-  - Gui+ D
-  - Gui+ F
-  - $$mdi:apple-keyboard-command$$
-  - ;
-  - (
-  - '['
-  - <
-  - '{'
-  - {type: trans}
-  - {type: trans}
-  - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, s: '$$mdi:apple-keyboard-command$$'}
-  - {t: B, s: '$$mdi:apple-keyboard-command$$'}
-  - '`'
-  - )
-  - ']'
-  - '>'
-  - '}'
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - ['', Gui+ Q, Gui+ W, Gui+ E, Gui+ R, Gui+ T, ':', '''', '|', '', '', '']
+  - - {type: trans}
+    - Gui+ A
+    - Gui+ S
+    - Gui+ D
+    - Gui+ F
+    - $$mdi:apple-keyboard-command$$
+    - ;
+    - (
+    - '['
+    - <
+    - '{'
+    - {type: trans}
+  - - {type: trans}
+    - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: X, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: C, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: V, s: '$$mdi:apple-keyboard-command$$'}
+    - {t: B, s: '$$mdi:apple-keyboard-command$$'}
+    - '`'
+    - )
+    - ']'
+    - '>'
+    - '}'
+    - {type: trans}
+  - - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   Number:
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ''
-  - {type: trans}
-  - '`'
-  - '~'
-  - '#'
-  - _
-  - \
-  - /
-  - '-'
-  - '*'
-  - +
-  - '='
-  - {type: trans}
-  - {type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - .
-  - ''
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '']
+  - - {type: trans}
+    - '`'
+    - '~'
+    - '#'
+    - _
+    - \
+    - /
+    - '-'
+    - '*'
+    - +
+    - '='
+    - {type: trans}
+  - - {type: trans}
+    - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - ^
+    - '&'
+    - '*'
+    - .
+    - ''
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   Sys:
-  - {type: held}
-  - $$mdi:flash$$
-  - $$mdi:refresh$$
-  - $$mdi:power$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:power$$
-  - $$mdi:refresh$$
-  - $$mdi:flash$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:usb$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: Base_QWERTY, h: toggle}
-  - {t: Middlemak, h: toggle}
-  - {t: Windows, h: toggle}
-  - ''
-  - ''
-  - $$mdi:bluetooth$$
-  - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
-  - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
-  - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
-  - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
-  - $$mdi:bluetooth-off$$
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - - {type: held}
+    - $$mdi:flash$$
+    - $$mdi:refresh$$
+    - $$mdi:power$$
+    - ''
+    - ''
+    - ''
+    - ''
+    - $$mdi:power$$
+    - $$mdi:refresh$$
+    - $$mdi:flash$$
+    - ''
+  - ['', '', '', '', '', '', '$$mdi:usb$$', '', '', '', '', '']
+  - - ''
+    - {t: Base_QWERTY, h: toggle}
+    - {t: Middlemak, h: toggle}
+    - {t: Windows, h: toggle}
+    - ''
+    - ''
+    - $$mdi:bluetooth$$
+    - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
+    - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
+    - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
+    - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
+    - $$mdi:bluetooth-off$$
+  - ['', '', '', '', '', '']
   WinCutPaste:
-  - {type: trans}
-  - Ctl+ Q
-  - {t: '$$mdi:apple-keyboard-control$$', s: W, type: sym_sub_text}
-  - Ctl+ E
-  - Ctl+ R
-  - Ctl+ T
-  - {type: trans}
-  - {type: trans}
-  - ''
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - tmux prefix
-  - Ctl+ S
-  - Ctl+ D
-  - Ctl+ F
-  - $$mdi:apple-keyboard-control$$
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - Ctl+ Z
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
-  - Ctl+ B
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - - {type: trans}
+    - Ctl+ Q
+    - {t: '$$mdi:apple-keyboard-control$$', s: W, type: sym_sub_text}
+    - Ctl+ E
+    - Ctl+ R
+    - Ctl+ T
+    - {type: trans}
+    - {type: trans}
+    - ''
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - tmux prefix
+    - Ctl+ S
+    - Ctl+ D
+    - Ctl+ F
+    - $$mdi:apple-keyboard-control$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - Ctl+ Z
+    - Ctl+ X
+    - Ctl+ C
+    - Ctl+ V
+    - Ctl+ B
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   Nav:
-  - {type: trans}
-  - PG UP
-  - {type: trans}
-  - $$mdi:arrow-up$$
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:power$$
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - PG DN
-  - LEFT
-  - $$mdi:arrow-down$$
-  - RIGHT
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - - {type: trans}
+    - PG UP
+    - {type: trans}
+    - $$mdi:arrow-up$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:power$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - PG DN
+    - LEFT
+    - $$mdi:arrow-down$$
+    - RIGHT
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
