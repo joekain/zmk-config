@@ -260,7 +260,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - $$mdi:power$$
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
