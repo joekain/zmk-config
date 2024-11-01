@@ -17,4 +17,4 @@ jobs:
       config_path: "keymap_drawer.config.yaml"   # config file, ignored if not exists
       output_folder: "keymap-drawer"             # path to save produced SVG and keymap YAML files
       parse_args: "kain:'-c 12' kainp:'-c 12'"                 # 12 columns
-      draw_args: "kain:'--qmk-keyboard cantor' kain:'--qmk-keyboard cantor'"  # Similar to cantor layout
+      draw_args: "kain:'--qmk-keyboard cantor' kainp:'--qmk-keyboard cantor'"  # Similar to cantor layout
