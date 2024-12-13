@@ -26,10 +26,10 @@ layers:
     - /
     - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
   - - SHIFT+
-    - {t: '$$mdi:keyboard-space$$', h: brackets+}
+    - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
     - {t: '$$mdi:keyboard-tab$$', h: Number}
     - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-    - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: ⮐, h: brackets+}
     - SHIFT+
   Middlemak:
   - - {type: trans}
@@ -118,13 +118,24 @@ layers:
     - {t: ⮐, h: '$$mdi:apple-keyboard-option$$'}
     - {type: trans}
   brackets+:
-  - ['', Gui+ Q, Gui+ W, Gui+ E, Gui+ R, Gui+ T, ':', '''', '|', '', '', '']
+  - - ''
+    - PG UP
+    - ''
+    - $$mdi:arrow-up$$
+    - ''
+    - {type: trans}
+    - ':'
+    - ''''
+    - '|'
+    - ''
+    - ''
+    - ''
   - - {type: trans}
-    - Gui+ A
-    - Gui+ S
-    - Gui+ D
-    - Gui+ F
-    - $$mdi:apple-keyboard-command$$
+    - PG DN
+    - LEFT
+    - $$mdi:arrow-down$$
+    - RIGHT
+    - ''
     - ;
     - (
     - '['
@@ -132,11 +143,11 @@ layers:
     - '{'
     - {type: trans}
   - - {type: trans}
-    - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: X, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: C, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: V, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: B, s: '$$mdi:apple-keyboard-command$$'}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
     - '`'
     - )
     - ']'
@@ -144,10 +155,10 @@ layers:
     - '}'
     - {type: trans}
   - - {type: trans}
+    - Gui+ $$mdi:keyboard-space$$
+    - Gui+ $$mdi:keyboard-tab$$
+    - {type: trans}
     - {type: held}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
     - {type: trans}
   Number:
   - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '']
@@ -246,10 +257,10 @@ layers:
     - {type: trans}
     - {type: trans}
   - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: held}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
     - {type: trans}
   Nav:
   - - {type: trans}
