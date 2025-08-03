@@ -218,7 +218,7 @@ layers:
     - Ctl+T
     - {type: trans}
     - {type: trans}
-    - ''
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
