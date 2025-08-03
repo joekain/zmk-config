@@ -117,7 +117,7 @@
 
         WinCutPaste {
             bindings = <
-&trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)           &trans  &trans  &none   &trans  &trans  &trans
+&trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)           &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LEFT_CONTROL    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)           &trans  &trans  &trans  &trans  &trans  &trans
                               &trans     &trans     &trans              &trans  &trans  &trans
