@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: kain}
 layers:
   Base_QWERTY:
   - [Sys, Q, W, E, R, T, Y, U, I, O, P, '&nav_word 7']
@@ -211,11 +212,11 @@ layers:
     - {type: trans}
     - {type: trans}
   - - {type: trans}
-    - Ctl+ Z
-    - Ctl+ X
-    - Ctl+ C
-    - Ctl+ V
-    - Ctl+ B
+    - Ctl+Z
+    - Ctl+X
+    - Ctl+C
+    - Ctl+V
+    - Ctl+B
     - {type: trans}
     - {type: trans}
     - {type: trans}
