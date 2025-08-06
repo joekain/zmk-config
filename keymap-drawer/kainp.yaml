@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: kainp}
 layers:
   Base_QWERTY:
-  - - Sys
+  - - {t: '&nav_word', h: Sys}
     - Q
     - W
     - E
@@ -13,24 +13,24 @@ layers:
     - O
     - P
     - {t: '&nav_word 7', h: Sys}
-  - [ESCAPE, A, S, D, F, G, H, J, K, L, '''', '$$mdi:apple-keyboard-option$$']
-  - - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
-    - Z
-    - X
-    - C
-    - V
-    - B
-    - N
-    - M
-    - ','
-    - .
-    - /
-    - {t: '&caps_word', h: '$$mdi:apple-keyboard-shift$$'}
+  - - {t: ESCAPE, h: '$$mdi:apple-keyboard-control$$'}
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - ''''
+    - {t: ESCAPE, h: '$$mdi:apple-keyboard-control$$'}
+  - ['', Z, X, C, V, B, N, M, ',', ., /, '$$mdi:apple-keyboard-option$$']
   - - SHIFT+
-    - {t: '$$mdi:keyboard-space$$', h: brackets+}
-    - {t: '$$mdi:keyboard-tab$$', h: Number}
-    - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
     - {t: ⮐, h: '$$mdi:apple-keyboard-command$$'}
+    - {t: '$$mdi:backspace-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+    - {t: '$$mdi:keyboard-tab$$', h: Number}
+    - {t: '$$mdi:keyboard-space$$', h: brackets+}
     - SHIFT+
   Middlemak:
   - - {type: trans}
@@ -99,33 +99,33 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - $$mdi:microsoft-windows$$
-  - - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
     - {type: trans}
   - - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - LEFT WIN
+  - - {type: trans}
     - {t: ⮐, h: '$$mdi:apple-keyboard-option$$'}
     - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
   brackets+:
-  - ['', Gui+Q, Gui+W, Gui+E, Gui+R, Gui+T, ':', '''', '|', '', '', '']
+  - ['', PG UP, '', '$$mdi:arrow-up$$', '', '', ':', '''', '|', '', '', '']
   - - {type: trans}
-    - Gui+A
-    - Gui+S
-    - Gui+D
-    - Gui+F
-    - $$mdi:apple-keyboard-command$$
+    - PG DN
+    - LEFT
+    - $$mdi:arrow-down$$
+    - RIGHT
+    - ''
     - ;
     - (
     - '['
@@ -133,11 +133,11 @@ layers:
     - '{'
     - {type: trans}
   - - {type: trans}
-    - {t: Z, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: X, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: C, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: V, s: '$$mdi:apple-keyboard-command$$'}
-    - {t: B, s: '$$mdi:apple-keyboard-command$$'}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
     - '`'
     - )
     - ']'
@@ -145,10 +145,10 @@ layers:
     - '}'
     - {type: trans}
   - - {type: trans}
+    - ''
+    - {type: trans}
+    - {type: trans}
     - {type: held}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
     - {type: trans}
   Number:
   - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '']
@@ -178,8 +178,8 @@ layers:
     - {type: trans}
   - - {type: trans}
     - {type: trans}
+    - ''
     - {type: held}
-    - {type: trans}
     - {type: trans}
     - {type: trans}
   Sys:
@@ -209,86 +209,10 @@ layers:
     - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
     - $$mdi:bluetooth-off$$
   - ['', '', '', '', '', '']
-  WinCutPaste:
-  - - {type: trans}
-    - Ctl+Q
-    - {t: '$$mdi:apple-keyboard-control$$', s: W, type: sym_sub_text}
-    - Ctl+E
-    - Ctl+R
-    - Ctl+T
-    - {type: trans}
-    - {type: trans}
-    - ''
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - tmux prefix
-    - Ctl+S
-    - Ctl+D
-    - Ctl+F
-    - $$mdi:apple-keyboard-control$$
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - Ctl+Z
-    - Ctl+X
-    - Ctl+C
-    - Ctl+V
-    - Ctl+B
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - {type: held}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
   Nav:
-  - - {type: trans}
-    - PG UP
-    - {type: trans}
-    - $$mdi:arrow-up$$
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - PG DN
-    - LEFT
-    - $$mdi:arrow-down$$
-    - RIGHT
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
+  - ['', PG UP, '', '$$mdi:arrow-up$$', '', '', '', '', '$$mdi:arrow-up$$', '', PG UP, '']
+  - ['', PG DN, LEFT, '$$mdi:arrow-down$$', RIGHT, '', '', LEFT, '$$mdi:arrow-down$$', RIGHT, PG DN, '']
+  - ['', '', '', '', '', '', '', '', '', '', '', '']
   - - {type: trans}
     - {type: trans}
     - {type: trans}
