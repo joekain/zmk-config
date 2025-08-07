@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: kainp}
 layers:
   Base_QWERTY:
-  - - {t: '&nav_word', h: Sys}
+  - - {t: Nav, h: Sys}
     - Q
     - W
     - E
@@ -12,7 +12,7 @@ layers:
     - I
     - O
     - P
-    - {t: '&nav_word 7', h: Sys}
+    - {t: Nav, h: Sys}
   - - {t: ESCAPE, h: '$$mdi:apple-keyboard-control$$'}
     - A
     - S

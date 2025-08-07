@@ -176,8 +176,9 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;nav_word</tspan></text>
-<a href="#Sys">
+<a href="#Nav">
+<text x="0" y="0" class="key tap layer-activator">Nav</text>
+</a><a href="#Sys">
 <text x="0" y="24" class="key hold layer-activator">Sys</text>
 </a></g>
 <g transform="translate(84, 42)" class="key keypos-1">
@@ -222,10 +223,9 @@ path.combo {
 </g>
 <g transform="translate(756, 42)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 78%">&amp;nav_word</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">7</tspan>
-</text>
-<a href="#Sys">
+<a href="#Nav">
+<text x="0" y="0" class="key tap layer-activator">Nav</text>
+</a><a href="#Sys">
 <text x="0" y="24" class="key hold layer-activator">Sys</text>
 </a></g>
 <g transform="translate(28, 98)" class="key keypos-12">
