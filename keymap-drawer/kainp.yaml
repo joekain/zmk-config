@@ -210,9 +210,42 @@ layers:
     - $$mdi:bluetooth-off$$
   - ['', '', '', '', '', '']
   Nav:
-  - ['', PG UP, '', '$$mdi:arrow-up$$', '', '', '', '', '$$mdi:arrow-up$$', '', PG UP, '']
-  - ['', PG DN, LEFT, '$$mdi:arrow-down$$', RIGHT, '', '', LEFT, '$$mdi:arrow-down$$', RIGHT, PG DN, '']
-  - ['', '', '', '', '', '', '', '', '', '', '', '']
+  - - {type: trans}
+    - PG UP
+    - ''
+    - $$mdi:arrow-up$$
+    - ''
+    - ''
+    - ''
+    - ''
+    - $$mdi:arrow-up$$
+    - ''
+    - PG UP
+    - {type: trans}
+  - - {type: trans}
+    - PG DN
+    - LEFT
+    - $$mdi:arrow-down$$
+    - RIGHT
+    - ''
+    - ''
+    - LEFT
+    - $$mdi:arrow-down$$
+    - RIGHT
+    - PG DN
+    - {type: trans}
+  - - {type: trans}
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {type: trans}
   - - {type: trans}
     - {type: trans}
     - {type: trans}
