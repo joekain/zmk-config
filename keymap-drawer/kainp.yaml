@@ -145,7 +145,7 @@ layers:
     - '}'
     - {type: trans}
   - - {type: trans}
-    - ''
+    - {t: Gui+⮐, h: '$$mdi:apple-keyboard-command$$'}
     - {type: trans}
     - {type: trans}
     - {type: held}
@@ -178,7 +178,7 @@ layers:
     - {type: trans}
   - - {type: trans}
     - {type: trans}
-    - ''
+    - {type: trans}
     - {type: held}
     - {type: trans}
     - {type: trans}
